@@ -21,4 +21,4 @@ I have created couple of components like
 - Filter --component is used to filter the products by category,first fetch the list of categories from the API,then create a dropdown and include categories which are fetched previously, then accoring to the category which is selected, we have to show the products related to the category.
 - Sort -- component allows users to sort the product list by productname and nutrition grade by ascending or descending.
 
-### Live Link:
+### Live Link: https://myassessmentt.netlify.app/
