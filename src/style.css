@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.app{
+    width: 100% !important;
+    min-height: 100vh;
+    background:linear-gradient(30deg,#3f0651,#000);
+}
+.home{
+    width: 90%;
+    margin: auto 5%;
+}
+.main-heading{
+    font-family: 'Poppins';
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    min-height: 25rem;
+    box-shadow: 2px 3px 20px rgb(157, 4, 228); 
+}
+
+.product-item img{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #323232;
+    background-color: #b0afb1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.heading{
+    color: #323232;
+    margin-bottom: 0;
+    
+}
+.cursor{
+    cursor: pointer;
+}
+.input-box{
+    width: 70%;
+    margin: 0 5%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 2px 5px 20px rgb(168, 6, 243);
+    border-radius: 40px;
+}
+input{
+    width: 85%;
+    padding:8px;
+    border: 0;
+    outline: none;
+    margin: 0 5%;
+    font-size: 18px;
+}
+.search{
+    width: 40px !important;
+    height:40px !important;
+    border-radius: 50% !important;
+    background: #ab3ee2 !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 0;
+    outline: none;
+    padding: 0 10px !important;
+    cursor: pointer;
+}
+
+.product-container{
+    width: 90%;
+    margin: 30px 5% 0;
+    background: #fff;
+    padding: 30px 5%;
+    border-radius: 20px;
+}
+.Product-detail-image img{
+    height: 100%;
+}
+.product-detail-item{
+    margin: 15px 0;
+}
+.pagination-btn{
+    background: #fff;
+    box-shadow: 2px 2px 14px #323232;
+    border: 0;
+}
+.pagination-btn:hover{
+    background-color: #fff;
+}
+.active{
+    background-color: #ab3ee2 !important;
+    color: #fff !important;
+    border: 0;
+}
+.row{
+    --bs-gutter-x: 1rem !important;
+}
+
+@media(max-width:767px) {
+    .pagination-btn{
+        width: 25px !important;
+        height: 25px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pagination{
+        justify-content: flex-start !important;
+    }
+}
+@media(max-width:540px) {
+    .pagination-btn{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px;
+    }
+    .left,.right{
+        display: none;
+    }
+    .pagination{
+        justify-content: center !important;
+        row-gap: 10px;
+    }
+    /* .filter{
+        width: 60%;
+        margin: 30px 20%;
+    } */
+}
