@@ -1,6 +1,6 @@
 ### TechStack
-React Js
-Bootstrap
+- React Js
+- Bootstrap
 
 ### Methods to solve 
 ### Project Setup
